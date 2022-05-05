@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+
+}
+          /* ---------------------------------------------------------------------------------------------------------
+                                            PRIMERA PARTE
+           -------------------------------------------------------------------------------------------------------- */
+
+
+header{
+       width: 100% ;
+ display: flex;
+  align-items: center;
+ float: right;
+  position: fixed;
+ background-color: rgb(255, 255, 255);
+ box-shadow: -8px 0 20px rgb(0 0 0 / 20%);
+ word-spacing: 15pt;
+ padding: 10px;
+
+
+ }
+
+
+.navegacion-uno{
+    width: 100%;
+    padding:10px;
+    position: relative;
+    left: 50%;
+ font-size: large;
+ font-weight: 500;
+
+
+}
+
+
+.boton1{
+    width: 190px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 25px;
+  box-shadow:rgb(172, 102, 148);
+  border: 0ch;
+     background-color: rgb(172, 102, 148);
+     color: white;
+font-size: large;
+}
+
+                /* ---------------------------------------------------------------------------------------------------------
+                                                  SEGUNDA PARTE
+                 -------------------------------------------------------------------------------------------------------- */
+#hola{
+width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* height: 850px; */
+    padding-bottom: 100px;
+
+
+}
+
+
+.presentacion{
+    padding: 100px;
+ padding: top 110px;
+ margin-top: 250px;
+ margin-left: 20px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+font-size: large;
+
+}
+
+.hola-presentacion{
+  font-size: 2em;
+ color: rgb(31, 30, 30);
+ font-weight: 800;
+
+
+}
+
+.mi-nombre{
+    color: rgb(172, 102, 148);
+  font-size: 3em;
+    font-weight:900 ;
+    font-family: 'Montserrat', sans-serif; ;
+    line-height:1.2;
+
+ }
+
+.caracteristicas{
+    font-weight: 200px;
+white-space: nowrap;
+font-size: 18px;
+/* padding-bottom:10px ; */
+line-height:50px ;
+/* margin-top: 10px; */
+color: rgb(80, 79, 79);
+
+
+}
+
+.boton2{
+    width: 190px;
+    height: 50px;
+    border-radius: 25px;
+  box-shadow:rgb(172, 102, 148);
+     background-color: rgb(172, 102, 148);
+     color: white;
+font-size: large;
+/* margin-top: 15px; */
+border: 0;
+}
+
+
+
+
+.imagen-presentacion{
+    width: 50%;
+max-width: 600px;
+padding-top: 25px;
+
+}
+
+                 /* ---------------------------------------------------------------------------------------------------------
+                                                  TERCERA PARTE
+                 --------------------------------------------------------------------------------------------------------  */
+
+.habilidades{
+    width: 100%;
+}
+
+.caja-conocimientos{
+width: 100%;
+text-align: center;
+background-color:rgb(238, 234, 234);
+
+}
+
+.titulo-conocimientos{
+
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 900;
+padding-top: 150px;
+}
+
+
+.lorem1{
+    margin-top: 30px;
+    margin-left: 2%;
+    color: rgb(80, 79, 79);
+    font-weight: 200px;
+font-size: 18px;
+
+}
+
+
+.iconos-conocimientos{
+    width:70%;
+    height: 550px;
+    background-color:rgb(238, 234, 234);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+padding: 2px;
+padding-bottom: 2px;
+
+
+}
+
+
+
+
+.caja-2-conocimientos{
+ width: 100%;
+height:650px;
+ background-color: rgb(238, 234, 234);
+display: flex;
+flex-wrap: wrap;
+padding-top: 10px;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.icono{
+    display: flex;
+    display: block;
+align-items: center;
+width: 160px ;
+height:20vh;
+padding: 50px;
+background-color: rgb(250, 249, 248) ;
+border-radius: 1em ;
+border: 1px solid; color: rgb(194, 193, 193);
+margin: 15px;
+
+}
+
+.devicon-html5-plain, .devicon-css3-plain, .devicon-sass-original,
+ .devicon-javascript-plain, .devicon-react-original, .devicon-git-plain{
+    padding-left: 25px;
+}
+
+
+
+.texto-icono{
+    color: black;
+    margin-block-start: 20px;
+    margin-inline-start: 40px;
+    font-size: 1em;
+        font-weight: 600;
+
+}
+                    /* ---------------------------------------------------------------------------------------------------------
+                                                        CUARTA PARTE
+                    -------------------------------------------------------------------------------------------------------- */
+
+#cita{
+    width: 100%;
+    background-color:rgb(172, 102, 148);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+text-align: center;
+padding-top: 55px;
+padding-bottom: 55px;
+
+
+}
+
+.cita-2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: 200px;
+font-size: 18px;
+}
+
+.texto-someone{
+margin-top: 70px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+
+       /* ---------------------------------------------------------------------------------------------------------
+                                                        QUINTA PARTE
+                    -------------------------------------------------------------------------------------------------------- */
+
+
+
+
+ #proyectos{
+     width: 100%;
+    padding-top:500px ;
+     background-color: rgb(253, 253, 253);
+     padding-top: 150px;
+
+ }
+
+
+.titulo-proyecto{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3em;
+    font-weight: 900;
+
+}
+
+.cita-3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 2%;
+    color: rgb(80, 79, 79);
+    font-weight: 200px;
+font-size: 18px;
+
+}
+
+
+.items-proyectos{
+    width: 100%;
+     background-color: rgb(161, 120, 120);
+ display: flex;
+ justify-content: center;
+ }
+
+.caja-proyectos{
+    width: 80%;
+  margin: 1px;
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 20px;
+padding-top padding-bottom: 25px;
+}
+
+.imagen1{
+    width: 300px ;
+    margin: 2vh;
+    padding:5px;
+    background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+    border-radius: 1em ;
+    display: flex;
+ display: block;
+border: 1px solid;
+    margin: 15px;
+padding-top: 25px;
+
+}
+
+.pie-de-imagen{
+    color: black;
+    margin-block-start: 10px;
+    margin-inline-start: 10px;
+margin-left: 10px;
+    text-align: center;
+    font-size: 1em;
+     font-weight: 600;
+
+}
+
+
+.formulario-de-contacto{
+    width: 100%;
+background-color: rgb(207, 125, 125);
+
+
+}
+.dos-cajas{p
+    padding-top: 150px;
+    background-color: rgb(22, 165, 77);
+    height: 800px;
+  width: 70%;
+
+}
+
+                  /* <!------------------------------------------------------------------------------------------------------------
+                                                         SEXTA PARTE
+                     ---------------------------------------------------------------------------------------------------------->  */
+/*
+    .formulario-de-contacto{
+        width: 100%;
+        background-color: #acb7db;
+
+
+    }
+
+
+
+.caja-info-contacto{
+
+    background-color:rgb(75, 48, 48);
+    margin: 10%;
+    border-radius: 50px ;
+    border-style:solid;
+    display: flex;
+padding: 50px;
+    justify-content: space-around;
+    padding: 100px;
+    align-items: center;
+
+}
+
+#contacto{
+   color: rgb(0, 0, 0);
+   background-color: aquamarine;
+}
+
+.titulo-contacto{
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.caja-escribime{
+    width: 100%;
+    height:250px;
+    background-color: blue;
+
+
+}
+.titulo-escribime{
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+
+.enlace-boton{
+    width: 190px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 25px;
+  box-shadow:rgb(172, 102, 148);
+     background-color: rgb(172, 102, 148);
+     color: white;
+font-size: large;
+border: 0;
+}
+
+                /* <-----------------------------------------------------------------------------------------------------------
+                                                        SEPTIMA PARTE
+                    ----------------------------------------------------------------------------------------------------------> */
+
+/* footer{
+     color: rgb(255, 255, 255);
+    background-color:rgb(172, 102, 148);
+     width: 100%;
+    height: 300px;
+    padding-top: 80px;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+   align-items: center ;
+   font-size: 16px;
+
+}
+
+.navegacion-dos{
+ padding-left: 10px;
+ word-spacing: 15px;
+}
+
+.ultimos-iconos{
+line-height: 9;
+justify-content: space-around;
+word-spacing: 20px;
+color:rgb(172, 102, 148); ;;
+
+
+}
+.fa-instagram, .fa-github-alt, .fa-linkedin-in, .fa-envelope{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+text-align: center;
+line-height: 3;
+}
+
+
+.fa-heart{
+    color: red;
+} */ */
