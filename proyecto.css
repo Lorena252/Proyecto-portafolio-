@@ -11,7 +11,7 @@ font-family: 'Montserrat', sans-serif;
 
 
 header{
-       width: 100% ;
+    width: 100% ;
  display: flex;
   align-items: center;
  float: right;
@@ -19,8 +19,7 @@ header{
  background-color: rgb(255, 255, 255);
  box-shadow: -8px 0 20px rgb(0 0 0 / 20%);
  word-spacing: 15pt;
- padding: 10px;
-
+ padding: 1em;
 
  }
 
@@ -29,18 +28,23 @@ header{
     width: 100%;
     padding:10px;
     position: relative;
-    left: 50%;
- font-size: large;
- font-weight: 500;
+  margin-right: 15px;
+    /* left: 50%; */
+ font-weight:200;
+ display: flex;
+justify-content: flex-end;
 
 
 }
 
+ul{
+    margin: 0;
+}
 
 .boton1{
     width: 190px;
     height: 50px;
-    margin: 5px;
+    margin-right: 10px;
     border-radius: 25px;
   box-shadow:rgb(172, 102, 148);
   border: 0ch;
@@ -51,35 +55,40 @@ font-size: large;
 
                 /* ---------------------------------------------------------------------------------------------------------
                                                   SEGUNDA PARTE
-                 -------------------------------------------------------------------------------------------------------- */
-#hola{
-width: 100%;
-    display: flex;
-    flex-direction: row;
-    /* height: 850px; */
-    padding-bottom: 100px;
-
-
-}
+                  -------------------------------------------------------------------------------------------------------- */
 
 
 .presentacion{
-    padding: 100px;
- padding: top 110px;
- margin-top: 250px;
- margin-left: 20px;
- display: flex;
- align-items: center;
- flex-direction: column;
-font-size: large;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
 
 }
 
-.hola-presentacion{
-  font-size: 2em;
- color: rgb(31, 30, 30);
- font-weight: 800;
+  #hola{
+padding: 120px 40px 140px;
+margin-top: 70px;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+}
 
+.caja-presentacion{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      line-height: 50px;
+}
+
+.hola-presentacion{
+     font-size: 2em;
+ display: flex;
+ align-items: center;
+ font-weight: 800;
 
 }
 
@@ -88,40 +97,34 @@ font-size: large;
   font-size: 3em;
     font-weight:900 ;
     font-family: 'Montserrat', sans-serif; ;
-    line-height:1.2;
+    /* line-height:1.2; */
 
  }
 
 .caracteristicas{
-    font-weight: 200px;
+    font-weight: 200;
 white-space: nowrap;
-font-size: 18px;
-/* padding-bottom:10px ; */
-line-height:50px ;
-/* margin-top: 10px; */
+/* font-size: 1em;
+line-height:40px ; */
+margin-top: 10px;
 color: rgb(80, 79, 79);
 
 
 }
 
 .boton2{
-    width: 190px;
+  width: 190px;
     height: 50px;
     border-radius: 25px;
-  box-shadow:rgb(172, 102, 148);
      background-color: rgb(172, 102, 148);
-     color: white;
+ color: white;
 font-size: large;
-/* margin-top: 15px; */
 border: 0;
 }
 
-
-
-
 .imagen-presentacion{
     width: 50%;
-max-width: 600px;
+max-width: 250vh;
 padding-top: 25px;
 
 }
@@ -130,63 +133,61 @@ padding-top: 25px;
                                                   TERCERA PARTE
                  --------------------------------------------------------------------------------------------------------  */
 
-.habilidades{
+ .habilidades{
     width: 100%;
-}
+} 
 
 .caja-conocimientos{
-width: 100%;
+/* width: 100%; */
 text-align: center;
 background-color:rgb(238, 234, 234);
+padding: 5px;
 
 }
 
 .titulo-conocimientos{
-
-    color: rgb(0, 0, 0);
-    font-size: 40px;
+   color: rgb(0, 0, 0);
+    font-size: 5vh;
     font-weight: 900;
-padding-top: 150px;
+padding-top: 10px;
 }
 
 
 .lorem1{
-    margin-top: 30px;
-    margin-left: 2%;
+    margin: 10px;
+    /* margin-top: 20px;
+    margin-left: 1%; */
     color: rgb(80, 79, 79);
     font-weight: 200px;
 font-size: 18px;
 
 }
 
+.caja-2-conocimientos{
+ width: 100%;
+/* height:650px; */
+ background-color: rgb(211, 90, 90);
+display: flex;
+flex-wrap: wrap;
+/* padding-top: 10px; */
+justify-content: center;
+align-items: center;
+
+}
 
 .iconos-conocimientos{
-    width:70%;
-    height: 550px;
-    background-color:rgb(238, 234, 234);
+    width:100%;
+    /* height: 550px; */
+   background-color:rgb(238, 234, 234);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 padding: 2px;
 padding-bottom: 2px;
 
-
 }
 
 
-
-
-.caja-2-conocimientos{
- width: 100%;
-height:650px;
- background-color: rgb(238, 234, 234);
-display: flex;
-flex-wrap: wrap;
-padding-top: 10px;
-justify-content: center;
-align-items: center;
-
-}
 
 
 
@@ -293,7 +294,7 @@ font-size: 18px;
 
 .items-proyectos{
     width: 100%;
-     background-color: rgb(161, 120, 120);
+     background-color: rgb(255, 255, 255);
  display: flex;
  justify-content: center;
  }
@@ -336,19 +337,42 @@ margin-left: 10px;
 }
 
 
-.formulario-de-contacto{
+#contacto{
     width: 100%;
-background-color: rgb(207, 125, 125);
-
-
-}
-.dos-cajas{p
-    padding-top: 150px;
-    background-color: rgb(22, 165, 77);
-    height: 800px;
-  width: 70%;
+background-color: rgb(238, 234, 234);
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
+.formulario-de-contacto{
+  width: 40%;
+background-color: aqua;
+margin: 120px;
+border-radius: 50px;
+border-style:solid; color: rgb(196, 201, 191);
+display: flex;
+/* justify-content:flex-end ; */
+padding: 200px 50px;
+/* align-items: center; */
+text-align: left;
+justify-content: space-around;
+/* justify-content: center; */
+}
+
+.info-contacto{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+  padding: 10px;
+
+}
+.caja-escribime{
+   
+    padding: 10px;
+background-color: blue;
+
+
 
                   /* <!------------------------------------------------------------------------------------------------------------
                                                          SEXTA PARTE
@@ -457,4 +481,4 @@ line-height: 3;
 
 .fa-heart{
     color: red;
-} */ */
+} */
