@@ -5,6 +5,10 @@
 font-family: 'Montserrat', sans-serif;
 
 }
+body{
+    margin: 0;
+    height: 100%;
+}
           /* ---------------------------------------------------------------------------------------------------------
                                             PRIMERA PARTE
            -------------------------------------------------------------------------------------------------------- */
@@ -34,7 +38,6 @@ header{
  display: flex;
 justify-content: flex-end;
 
-
 }
 
 ul{
@@ -42,14 +45,14 @@ ul{
 }
 
 .boton1{
-    width: 190px;
-    height: 50px;
-    margin-right: 10px;
-    border-radius: 25px;
+ width: 190px;
+ padding: 15px;
+margin-right: 10px;
+border-radius: 25px;
   box-shadow:rgb(172, 102, 148);
   border: 0ch;
-     background-color: rgb(172, 102, 148);
-     color: white;
+ background-color: rgb(172, 102, 148);
+ color: white;
 font-size: large;
 }
 
@@ -64,7 +67,7 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-
+background-color: rgb(255, 255, 255);
 
 }
 
@@ -97,15 +100,13 @@ justify-content: space-between;
   font-size: 3em;
     font-weight:900 ;
     font-family: 'Montserrat', sans-serif; ;
-    /* line-height:1.2; */
+  
 
  }
 
 .caracteristicas{
     font-weight: 200;
 white-space: nowrap;
-/* font-size: 1em;
-line-height:40px ; */
 margin-top: 10px;
 color: rgb(80, 79, 79);
 
@@ -114,7 +115,7 @@ color: rgb(80, 79, 79);
 
 .boton2{
   width: 190px;
-    height: 50px;
+padding: 15px;
     border-radius: 25px;
      background-color: rgb(172, 102, 148);
  color: white;
@@ -138,7 +139,7 @@ padding-top: 25px;
 } 
 
 .caja-conocimientos{
-/* width: 100%; */
+
 text-align: center;
 background-color:rgb(238, 234, 234);
 padding: 5px;
@@ -155,8 +156,6 @@ padding-top: 10px;
 
 .lorem1{
     margin: 10px;
-    /* margin-top: 20px;
-    margin-left: 1%; */
     color: rgb(80, 79, 79);
     font-weight: 200px;
 font-size: 18px;
@@ -165,11 +164,10 @@ font-size: 18px;
 
 .caja-2-conocimientos{
  width: 100%;
-/* height:650px; */
- background-color: rgb(211, 90, 90);
+ background-color: rgb(250, 246, 246);
 display: flex;
 flex-wrap: wrap;
-/* padding-top: 10px; */
+
 justify-content: center;
 align-items: center;
 
@@ -177,7 +175,6 @@ align-items: center;
 
 .iconos-conocimientos{
     width:100%;
-    /* height: 550px; */
    background-color:rgb(238, 234, 234);
     display: flex;
     flex-wrap: wrap;
@@ -186,10 +183,6 @@ padding: 2px;
 padding-bottom: 2px;
 
 }
-
-
-
-
 
 .icono{
     display: flex;
@@ -264,7 +257,7 @@ margin-top: 70px;
  #proyectos{
      width: 100%;
     padding-top:500px ;
-     background-color: rgb(253, 253, 253);
+     background-color: rgb(245, 239, 239);
      padding-top: 150px;
 
  }
@@ -294,7 +287,7 @@ font-size: 18px;
 
 .items-proyectos{
     width: 100%;
-     background-color: rgb(255, 255, 255);
+     background-color: rgb(238, 234, 234);
  display: flex;
  justify-content: center;
  }
@@ -302,7 +295,7 @@ font-size: 18px;
 .caja-proyectos{
     width: 80%;
   margin: 1px;
-background-color: rgb(255, 255, 255);
+background-color: rgb(238, 234, 234);
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -337,112 +330,132 @@ margin-left: 10px;
 }
 
 
+            /* ---------------------------------------------------------------------------------------------
+                                            SEXTA PARTE
+            ----------------------------------------------------------------------------------------------                       */
 #contacto{
     width: 100%;
-background-color: rgb(238, 234, 234);
+background-color: rgb(233, 227, 227);
+padding-top:150px ;
+padding-bottom: 150px;
 display: flex;
-align-items: center;
 justify-content: center;
 
 }
 .formulario-de-contacto{
-  width: 40%;
-background-color: aqua;
-margin: 120px;
-border-radius: 50px;
-border-style:solid; color: rgb(196, 201, 191);
+width: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding: 50px 50px;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+border: solid 1px;
+}
+
+.caja-toda-info{
+width: 100%;
+
 display: flex;
-/* justify-content:flex-end ; */
-padding: 200px 50px;
-/* align-items: center; */
+background-color: rgb(255, 255, 255);
 text-align: left;
-justify-content: space-around;
-/* justify-content: center; */
-}
-
-.info-contacto{
-    display: flex;
-    flex-direction: column;
-    background-color: green;
-  padding: 10px;
+padding: 5px;
 
 }
-.caja-escribime{
+
+.caja-contacto{
+  width: 50%;
    
-    padding: 10px;
-background-color: blue;
-
-
-
-                  /* <!------------------------------------------------------------------------------------------------------------
-                                                         SEXTA PARTE
-                     ---------------------------------------------------------------------------------------------------------->  */
-/*
-    .formulario-de-contacto{
-        width: 100%;
-        background-color: #acb7db;
-
-
-    }
-
-
-
-.caja-info-contacto{
-
-    background-color:rgb(75, 48, 48);
-    margin: 10%;
-    border-radius: 50px ;
-    border-style:solid;
-    display: flex;
-padding: 50px;
-    justify-content: space-around;
-    padding: 100px;
-    align-items: center;
-
 }
-
-#contacto{
-   color: rgb(0, 0, 0);
-   background-color: aquamarine;
-}
-
 .titulo-contacto{
-    margin-bottom: 20px;
-    font-size: 3em;
+    font-size: 6vh;
     font-weight: 900;
+    padding: 10px;
+    padding-bottom: 25px;
+
+
+}
+
+.cita-4{
+
+padding: 10px;
+padding-bottom: 25px;
+}
+
+.redes-sociales{
+    list-style: none;
+    margin-inline-start: 35px;
+line-height: 3;    
+padding: 10px 5px;
+
+}
+
+.fa-instagram, .fa-github-alt, .fa-linkedin-in, .fa-envelope{
+    border-radius: 100%;
+    color: rgb(172, 102, 148);
+    margin-right: 15px;
 }
 
 .caja-escribime{
-    width: 100%;
-    height:250px;
-    background-color: blue;
+   width: 50%;
+background-color: rgb(255, 255, 255);
+padding: 10px 15px;
 
 
 }
-.titulo-escribime{
-    margin-bottom: 20px;
-    font-size: 3em;
-    font-weight: 900;
-}
 
+form{
+ box-sizing: border-box;
+width: 100%;
+text-align: left;
+display: block;
 
-.enlace-boton{
-    width: 190px;
-    height: 50px;
-    margin: 5px;
+   }
+
+.caja-nombre-apellido{
+    display:flex ;
+   }
+   .caja-nombre{
+       margin-right: 35px;
+   }
+
+   .caja-mensaje{
+       padding: 10px 9px;
+   }
+input{
+    border: 0;
     border-radius: 25px;
-  box-shadow:rgb(172, 102, 148);
-     background-color: rgb(172, 102, 148);
-     color: white;
-font-size: large;
-border: 0;
+    width: 100%;
+    padding: 10px 5px;
+    padding-bottom: 15px;
+    margin: 5px;
+    background-color: rgb(231, 197, 231); 
 }
+.caja-mensaje{
+    border: 0;
+    text-align: start;
+text-align: left;
+padding-bottom: 20%;
+}
+
+.boton-tres{
+     margin-top: 15px;
+  padding: 10px 35px;
+border-radius: 25px; 
+ background-color: rgb(172, 102, 148);
+    color: white;
+    font-size: large;
+      border: 0;  
+}
+                 
+
 
                 /* <-----------------------------------------------------------------------------------------------------------
                                                         SEPTIMA PARTE
                     ----------------------------------------------------------------------------------------------------------> */
 
-/* footer{
+ footer{
      color: rgb(255, 255, 255);
     background-color:rgb(172, 102, 148);
      width: 100%;
@@ -453,32 +466,33 @@ border: 0;
   justify-content: center;
    align-items: center ;
    font-size: 16px;
+   text-decoration: ;
 
 }
 
 .navegacion-dos{
  padding-left: 10px;
  word-spacing: 15px;
+
+
 }
 
 .ultimos-iconos{
 line-height: 9;
 justify-content: space-around;
-word-spacing: 20px;
+word-spacing: 10px;
 color:rgb(172, 102, 148); ;;
 
 
 }
 .fa-instagram, .fa-github-alt, .fa-linkedin-in, .fa-envelope{
-    height: 50px;
+    height: 50px; 
     width: 50px;
-    border-radius: 50px;
     background-color: rgb(255, 255, 255);
 text-align: center;
 line-height: 3;
 }
 
-
 .fa-heart{
     color: red;
-} */
+}  
