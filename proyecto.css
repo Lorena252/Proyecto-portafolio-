@@ -24,7 +24,11 @@ header{
  padding: 1em;
 
  }
- 
+ @media (max-width:1100px){
+     header{
+         display: none;
+   }  
+ }
 
 .navegacion-uno{
     width: 100%;
@@ -36,25 +40,26 @@ header{
  display: flex;
 justify-content: flex-end;
 
+
 }
 
-ul{
+a{
     margin: 0; 
-
+    text-decoration: none;
+    color: rgb(26, 25, 25);
     font-weight:200;
 }
 
-.boton1{
+/* .boton{
  width: 190px;
  padding: 15px;
-/* margin-right: 10px; */
 border-radius: 25px;
-  box-shadow:rgb(172, 102, 148);
   border: 0ch;
  background-color: rgb(172, 102, 148);
  color: white;
 font-size: large;
-}
+} */
+
 
                 /* ---------------------------------------------------------------------------------------------------------
                                                   SEGUNDA PARTE
@@ -99,12 +104,13 @@ justify-content: space-between;
  }
 
 
-@media (min-width:300px) and (max-width: 600px){
+@media (min-width:300px) and (max-width: 1100px) and (orientation:portrait) {
    #hola{
      flex-direction: column;
 align-items: center;
 text-align: center;
 padding-left: 5px;
+
 
    } 
 }
@@ -124,10 +130,17 @@ white-space: nowrap;
 margin-top: 10px;
 color: rgb(80, 79, 79);
 
-
+}
+@media  (max-width:480px){
+.caracteristicas{
+ flex-direction: column;
+ white-space:pre-line;
+ word-spacing: 5px;
+}
 }
 
-.boton2{
+
+.boton{
   width: 190px;
 padding: 15px;
     border-radius: 25px;
@@ -136,14 +149,26 @@ padding: 15px;
 font-size: large;
 border: 0;
 }
+.navegacion-uno:hover .boton, .caja-presentacion:hover .boton  {
+    background-color: rgb(180, 43, 132);
+   
+    box-shadow: 1px 1px 35px 5px rgb(224, 30, 215);
+}
+
 
 .imagen-presentacion{
   width: 50%;
 /* max-width: 250vh; */
 padding-top: 25px;
 
-
 }
+
+@media (min-width:200px) and (max-width:1100px){
+    .imagen-presentacion{
+margin-top: 25px;
+    }
+}
+
 
                  /* ---------------------------------------------------------------------------------------------------------
                                                   TERCERA PARTE
@@ -163,11 +188,18 @@ padding: 5px;
 }
 
 .titulo-conocimientos{
-   color: rgb(0, 0, 0);
-    font-size: 5vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3em;
     font-weight: 900;
 padding-top: 10px;
 }
+@media (max-width:1100px){
+    .titulo-conocimientos{
+        font-size: 2em;
+    }
+}
+
 
 
 .lorem1{
@@ -197,6 +229,10 @@ align-items: center;
     justify-content: center;
 padding: 2px;
 padding-bottom: 2px;
+transition:1,0s;
+}
+.iconos-conocimientos:hover .icono{
+   border:  solid 2px rgb(210, 30, 165);
 
 }
 
@@ -218,6 +254,7 @@ margin: 15px;
  .devicon-javascript-plain, .devicon-react-original, .devicon-git-plain{
     padding-left: 25px;
 }
+
 
 
 
@@ -317,9 +354,10 @@ flex-wrap: wrap;
 justify-content: center;
 padding: 20px;
 padding-top padding-bottom: 25px;
+transition: 1,0s;
 }
 
-.imagen1{
+.imagen-uno{
     width: 300px ;
     margin: 2vh;
     padding:5px;
@@ -328,11 +366,18 @@ padding-top padding-bottom: 25px;
     border-radius: 1em ;
     display: flex;
  display: block;
-border: 1px solid;
+border: 1px solid; color: rgb(194, 193, 193);
     margin: 15px;
 padding-top: 25px;
 
+
 }
+
+.items-proyectos:hover .imagen-uno{
+    border:  solid 2px rgb(210, 30, 165);
+}
+
+
 
 .pie-de-imagen{
     color: black;
@@ -357,8 +402,10 @@ padding-bottom: 150px;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+transition: 2,0s;
 
 }
+
 .formulario-de-contacto{
 width: 80%;
 
@@ -370,6 +417,7 @@ background-color: rgb(255, 255, 255);
 border-radius: 20px;
 border: solid 1px;
 }
+
 
 .caja-toda-info{
 width: 100%;
@@ -402,17 +450,46 @@ padding-bottom: 25px;
 
 .redes-sociales{
     list-style: none;
-    margin-inline-start: 35px;
-line-height: 3;    
+    margin-inline-start: 5px;
+line-height: 2;    
 padding: 10px 5px;
+
 
 }
 
-.fa-instagram, .fa-github-alt, .fa-linkedin-in, .fa-envelope{
+
+
+
+.fa-instagram, .fa-github-alt, .fa-linkedin-in, .fa-facebook{
     border-radius: 100%;
     color: rgb(172, 102, 148);
     margin-right: 15px;
+  transition: 2,0s;
 }
+
+.pagina-instagram:hover .fa-instagram{
+    border: solid 0,5px rgb(224, 30, 215);
+    box-shadow: 1px 1px 35px 5px rgb(224, 30, 215);
+    background-color:rgb(124, 45, 96) ;
+}
+
+.pagina-github:hover .fa-github-alt{
+    border: solid 0.5px rgb(224, 30, 215);
+    box-shadow: 1px 1px 35px 5px rgb(224, 30, 215);
+    background-color:rgb(124, 45, 96) ;
+}
+
+.pagina-linkedin:hover .fa-linkedin-in{
+    border: solid 0,5px rgb(224, 30, 215);
+    box-shadow: 1px 1px 35px 5px rgb(224, 30, 215);
+    background-color:rgb(124, 45, 96) ;
+}
+.pagina-facebook:hover .fa-facebook{
+    border: solid 0,5px rgb(224, 30, 215);
+    box-shadow: 1px 1px 35px 5px rgb(224, 30, 215);
+    background-color:rgb(124, 45, 96) ;
+}
+
 
 .caja-escribime{
    width: 50%;
@@ -465,7 +542,12 @@ border-radius: 25px;
     font-size: large;
       border: 0;  
 }
-                 
+.caja-escribime:hover .boton-tres {
+    background-color: rgb(180, 43, 132);
+   
+    box-shadow: 1px 1px 35px 5px rgb(224, 30, 215);
+}
+
 
 
                 /* <-----------------------------------------------------------------------------------------------------------
@@ -491,14 +573,15 @@ border-radius: 25px;
  padding-left: 10px;
  word-spacing: 15px;
 
-
 }
+
 
 .ultimos-iconos{
 line-height: 9;
 justify-content: space-around;
 word-spacing: 5px;
 color:rgb(172, 102, 148);
+list-style: none;
 
 
 }
@@ -513,7 +596,10 @@ color:rgb(172, 102, 148);
 
 
 }
-
+/* .firma{
+    color: rgb(8, 8, 8);
+} */
 .fa-heart{
     color: red;
+
 }  
