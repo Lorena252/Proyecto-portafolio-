@@ -90,7 +90,17 @@ justify-content: space-between;
 
 }
 
-
+@media (min-width:300px) and (max-width: 1024px)  and (orientation:portrait){
+    #hola{
+      flex-direction: column;
+ align-items: center;
+ text-align: center;
+ padding-left: 5px;
+ padding-top: 45px;
+white-space: none;
+ 
+    } 
+ }
 
 
 
@@ -110,17 +120,7 @@ justify-content: space-between;
  }
 
 
-@media (min-width:300px) and (max-width: 1024px)  and (orientation:portrait){
-   #hola{
-     flex-direction: column;
-align-items: center;
-text-align: center;
-padding-left: 5px;
-padding-top: 25px;
 
-
-   } 
-}
 
 .mi-nombre{
     color: rgb(172, 102, 148);
@@ -128,8 +128,9 @@ padding-top: 25px;
     font-weight:900 ;
     font-family: 'Montserrat', sans-serif; ;
   
-
  }
+
+
 
 .caracteristicas{
     font-weight: 200;
@@ -141,7 +142,7 @@ color: rgb(80, 79, 79);
 @media  (max-width:480px){
 .caracteristicas{
  flex-direction: column;
- white-space:pre-line;
+ /* white-space:pre-line; */
  word-spacing: 5px;
 }
 }
@@ -260,7 +261,7 @@ margin: 15px;
 
 .devicon-html5-plain, .devicon-css3-plain, .devicon-sass-original,
  .devicon-javascript-plain, .devicon-react-original, .devicon-git-plain{
-    padding-left: 25px;
+    padding-left: 35px;
 }
 
 
@@ -269,7 +270,7 @@ margin: 15px;
 .texto-icono{
     color: black;
     margin-block-start: 20px;
-    margin-inline-start: 40px;
+    margin-inline-start: 55px;
     font-size: 1em;
         font-weight: 600;
 
