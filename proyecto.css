@@ -143,7 +143,7 @@ color: rgb(80, 79, 79);
 .caracteristicas{
  flex-direction: column;
  /* white-space:pre-line; */
- word-spacing: 5px;
+ /* word-spacing: 5px; */
 }
 }
 
@@ -175,6 +175,7 @@ padding-top: 25px;
 @media (min-width:200px) and (max-width:1100px){
     .imagen-presentacion{
 margin-top: 25px;
+
     }
 }
 
@@ -192,7 +193,8 @@ margin-top: 25px;
 
 text-align: center;
 background-color:rgb(238, 234, 234);
-padding: 5px;
+padding: 60px;
+
 
 }
 
@@ -219,16 +221,17 @@ font-size: 18px;
 
 }
 
-.caja-2-conocimientos{
+/* .caja-2-conocimientos{
  width: 100%;
- background-color: rgb(250, 246, 246);
+ background-color: rgb(70, 47, 47);
 display: flex;
 flex-wrap: wrap;
 
 justify-content: center;
 align-items: center;
+padding-bottom: 60px;
 
-}
+} */
 
 .iconos-conocimientos{
     width:100%;
@@ -239,6 +242,7 @@ align-items: center;
 padding: 2px;
 padding-bottom: 2px;
 transition:1,0s;
+padding-bottom: 80px;
 }
 .iconos-conocimientos:hover .icono{
    border:  solid 2px rgb(210, 30, 165);
@@ -250,8 +254,7 @@ transition:1,0s;
     display: block;
 align-items: center;
 width: 160px ;
-height:20vh;
-padding: 50px;
+padding: 40px;
 background-color: rgb(250, 249, 248) ;
 border-radius: 1em ;
 border: 1px solid; color: rgb(194, 193, 193);
@@ -262,6 +265,8 @@ margin: 15px;
 .devicon-html5-plain, .devicon-css3-plain, .devicon-sass-original,
  .devicon-javascript-plain, .devicon-react-original, .devicon-git-plain{
     padding-left: 35px;
+
+
 }
 
 
