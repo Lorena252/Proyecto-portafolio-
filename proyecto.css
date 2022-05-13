@@ -214,17 +214,6 @@ font-size: 18px;
 
 }
 
-/* .caja-2-conocimientos{
- width: 100%;
- background-color: rgb(70, 47, 47);
-display: flex;
-flex-wrap: wrap;
-
-justify-content: center;
-align-items: center;
-padding-bottom: 60px;
-
-} */
 
 .iconos-conocimientos{
     width:100%;
@@ -343,7 +332,7 @@ margin-top: 70px;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 40px;
-    margin-left: 2%;
+   
     color: rgb(80, 79, 79);
     font-weight: 200px;
 font-size: 18px;
@@ -353,6 +342,8 @@ font-size: 18px;
     .cita-3{
        display: flex;
        justify-content: center;
+       padding: 15px 10px;
+       margin-inline-start: 25px;
     }
 
     }
