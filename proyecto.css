@@ -3,9 +3,8 @@
     padding: 0;
  text-decoration: none;
 font-family: 'Montserrat', sans-serif; 
-/* -webkit-box-sizing: border-box; */
  -moz-box-sizing: border-box;
-/* box-sizing: border-box; */
+
 }
 
 
@@ -49,15 +48,6 @@ a{
     font-weight:200;
 }
 
-/* .boton{
- width: 190px;
- padding: 15px;
-border-radius: 25px;
-  border: 0ch;
- background-color: rgb(172, 102, 148);
- color: white;
-font-size: large;
-} */
 
 
                 /* ---------------------------------------------------------------------------------------------------------
@@ -206,7 +196,7 @@ padding-top: 60px;
 
 
 
-.lorem1{
+.cita-uno{
     margin: 10px;
     color: rgb(80, 79, 79);
     font-weight: 200px;
@@ -326,7 +316,7 @@ margin-top: 70px;
     }
 }
 
-.cita-3{
+.cita-tres{
     align-items: center;
     display: flex;
     justify-content: center;
@@ -339,7 +329,7 @@ font-size: 18px;
 
 }
 @media (max-width:900px){
-    .cita-3{
+    .cita-tres{
        display: flex;
        justify-content: center;
        padding: 15px 10px;
@@ -467,7 +457,7 @@ padding: 0;
 } 
 
 
-.cita-4{
+.cita-cuatro{
 
 padding: 10px;
 padding-bottom: 25px;
